@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mad Libs Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head><body>
+<!-- START -->
+    
+<h1 class="text-center m-4 text-3xl underline">Mad Libs Game</h1>
+
+<!-- form -->
+<form class=" mt-10">
+    <div class="inputs flex flex-col justify-center items-center">
+        <input type="text" placeholder="Enter any Color :" class="ColorText bg-slate-200 p-2 m-1 rounded-sm w-8/12" required>
+        <input type="text" placeholder="Enter any Plural Noun :" class="NounText bg-slate-200 p-2 m-1 rounded-sm w-8/12" required>
+        <input type="text" placeholder="Enter any Celebrity's Name :" class="CelebrityText bg-slate-200 p-2 m-1 rounded-sm w-8/12" required>
+    </div>
+    <input type="submit" value="Sumbit" class="bg-blue-600 text-white cursor-pointer p-1 px-2 my-5 rounded-md m-auto block hover:bg-blue-700">
+</form>
+
+<!-- display -->
+<div class="display text-center text-3xl">
+</div>
+
+<!-- restart -->
+<button class="playAgain bg-yellow-300 cursor-pointer p-2 my-14 rounded-md m-auto block hover:bg-yellow-400 ">
+    Play Again ↺
+</button>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
